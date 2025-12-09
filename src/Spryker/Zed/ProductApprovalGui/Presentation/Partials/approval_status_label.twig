@@ -1,6 +1,6 @@
 {% if product.approval_status is defined and product.approval_status is not empty %}
     {% set approvalStatus = product.approval_status %}
-    {% set statusLabelClass = 'label-info' %}
+    {% set statusLabelClass = 'label-success' %}
 
     {% if approvalStatus == 'denied' %}
         {% set statusLabelClass = 'label-danger' %}

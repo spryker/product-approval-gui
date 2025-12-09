@@ -58,7 +58,7 @@ class ProductApprovalProductTableDataExpander implements ProductApprovalProductT
      * @var array<string, string>
      */
     protected const APPROVAL_STATUS_TO_LABEL_CLASS_MAP = [
-        self::STATUS_APPROVED => 'label-info',
+        self::STATUS_APPROVED => 'label-success',
         self::STATUS_DENIED => 'label-danger',
         self::STATUS_WAITING_FOR_APPROVAL => 'label-warning',
         self::STATUS_DRAFT => 'label-default',
